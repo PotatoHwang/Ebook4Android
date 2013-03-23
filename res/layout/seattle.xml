@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/page_01_seattle" />
+
+    <Button
+        android:id="@+id/seattle_pdf_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="48dp"
+        android:layout_marginTop="247dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/seattle_video_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/seattle_pdf_btn"
+        android:layout_alignLeft="@+id/seattle_pdf_btn"
+        android:layout_marginBottom="113dp"
+        android:text="Button" />
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/taipei_menu_video"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="來台北 video"/>
+    <item
+        android:id="@+id/taipei_menu_pdf"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="第四部 台北有家"/>
+
+</menu>

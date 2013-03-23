@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/seattle_menu_video"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="西雅圖 video"/>
+    <item
+        android:id="@+id/seattle_menu_pdf"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="第一部 西雅圖的女孩"/>
+
+</menu>
